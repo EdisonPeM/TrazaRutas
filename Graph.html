@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <meta name="description" content="Aplicativo de trazza de Rutas para redes de comunicaciones II">
+    <meta name="author" content="Javier Castañeda">
+    <meta name="author" content="Edison Peñuela">
+
+    <title>Traza de Rutas</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/default.css" rel="stylesheet" type="text/css" media="screen">
+
+    <script src="./lib/jquery-1.11.0.js" language="JavaScript1.2"></script> 
+    <script src="lib/jquery-3.2.1.min.js" language="JavaScript1.2"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="src/graph.js" language="JavaScript1.2"></script>
+    <script src="src/allGrap.js" language="JavaScript1.2"></script>
+    <script src="json/Rutas1.js" language="JavaScript1.2" class="json"></script>
+    <script src="json/Rutas2.js" language="JavaScript1.2" class="json"></script>
+    <script src="json/Rutas3.js" language="JavaScript1.2" class="json"></script>
+    <script src="json/Rutas4.js" language="JavaScript1.2" class="json"></script>
+    <script src="json/Rutas5.js" language="JavaScript1.2" class="json"></script>
+    <script src="json/Rutas6.js" language="JavaScript1.2" class="json"></script>
+    <script src="json/Rutas7.js" language="JavaScript1.2" class="json"></script>
+
+    <script src="https://code.highcharts.com/highcharts.src.js"></script>
+</head>
+<body>
+    <p></p>
+    <h1 style="text-align: center;">GRAFICAS ESTADÍSTICAS SOBRE LAS TRAZAS</h1>
+    <div id="wrapper">
+        <div id="page-content-wrapper">
+            <div style="text-align: center;" class="container-fluid">
+                <a id="local" href="#From_local" class="btn btn-primary">LOCAL</a>
+                <a id="n_america" href="#From_NorteAmerica" class="btn btn-primary">NORTE AMERICA</a>
+                <a id="s_america" href="#From_SurAmerica" class="btn btn-primary">SUR AMERICA</a>
+                <a id="Europa" href="#From_Europa" class="btn btn-primary">EUROPA</a>
+                <a id="asia" href="#From_Asia" class="btn btn-primary">ASIA</a>
+                <a id="africa" href="#From_Africa" class="btn btn-primary">AFRICA</a>
+                <a id="oceania" href="#From_Oceania" class="btn btn-primary">OCEANIA</a>
+                |
+                <a id="allServer" href="#All" class="btn btn-success">COMPARAR</a>
+            </div>
+            <hr />
+            <div style="text-align: center;" class="container-fluid">
+                <a id="Google" href="#" class="btn btn-secondary">Google.com</a>
+                <a id="Youtube" href="#" class="btn btn-secondary">Youtube.com</a>
+                <a id="Facebook" href="#" class="btn btn-secondary">Facebook.com</a>
+                <a id="Baidu" href="#" class="btn btn-secondary">Baidu.com</a>
+                <a id="Wikipedia" href="#" class="btn btn-secondary">Wikipedia.org</a>
+                |
+                <a id="allPage" href="#" class="btn btn-success">COMPARAR</a>
+            </div>
+            <hr /> 
+            <h1 style="text-align: center;" id="tittle"></h1>
+            <div id="contenedor1" style="margin: 0 auto;text-align: center;"></div>
+            <div class="row">
+                <div class='col-sm-6'>
+                    <div id="contenedor2" style="margin: 0 auto;text-align: center;"></div>
+                </div>
+                <div class='col-sm-6'>
+                    <div id="contenedor3" style="margin: 0 auto;text-align: center;"></div>
+                </div>
+            </div>
+            <hr /> 
+            <div style="text-align: center;">
+                <a id="main" href="index.html" class="btn btn-info">REGRESAR</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
